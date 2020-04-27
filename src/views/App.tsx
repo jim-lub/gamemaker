@@ -1,9 +1,13 @@
 import React from 'react';
 
+import 'views/css/index.css';
+
+import { CodeEditor } from 'views/components/CodeEditor';
+
 const App = () => {
   return (
     <div>
-      <h1>GameMaker</h1>
+      <CodeEditor />
     </div>
   )
 }
