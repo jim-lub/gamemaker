@@ -1,0 +1,33 @@
+pre {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+pre > span {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+pre >
+  .NumericLiteral {
+    color: #f68b6e;
+}
+
+pre >
+  .PlusToken,
+  .MinusToken,
+  .AsteriskToken,
+  .SlashToken,
+  .EqualsToken {
+    color: #89dcf1;
+}
+
+pre >
+  .EndOfFileToken {
+
+}
+
+pre >
+  .selection {
+    background-color: #111111;
+  }

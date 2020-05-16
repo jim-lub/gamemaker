@@ -1,0 +1,24 @@
+.container {
+  margin: 5px;
+  padding: 5px;
+}
+
+.container * {
+  color: #f9f9f9;
+  font-family: 'JetBrainsMono';
+  font-size: 14px;
+  user-select: none;
+}
+
+.line > .lineNumber {
+  width: 30px;
+  color: #c5c5c5;
+}
+
+.input {
+  background-color: transparent;
+  outline: none;
+  border: dashed 1px #c5c5c5;
+  padding: 5px;
+  margin: 5px;
+}
